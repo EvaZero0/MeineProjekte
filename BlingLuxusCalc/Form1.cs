@@ -11,67 +11,120 @@ namespace BlingLuxusCalc
 
         private void bt_Plus_Click(object sender, EventArgs e)
         {
-            string term = txtb_Rechnung.Text + txtb_Input.Text;
-            decimal ergebnis = Rechne(term);
-            txtb_Rechnung.Text = ergebnis.ToString();
-            txtb_Rechnung.Text += " + ";
-            txtb_Input.Text = "";
+            if (txtb_Input.Text == "")
+            {
+                // nix passiert
+            }
+            else if (txtb_Input.Text == "-")
+            {
+                txtb_Input.Text = "";
+            }
+            else
+            {
+                string term = txtb_Rechnung.Text + txtb_Input.Text;
+                decimal ergebnis = Rechne(term);
+                txtb_Rechnung.Text = ergebnis.ToString();
+                txtb_Rechnung.Text += " + ";
+                txtb_Input.Text = "";
+            }
         }
 
         private void bt_Minus_Click(object sender, EventArgs e)
         {
-            string term = txtb_Rechnung.Text + txtb_Input.Text;
-            decimal ergebnis = Rechne(term);
-            txtb_Rechnung.Text = ergebnis.ToString();
-            txtb_Rechnung.Text += " - ";
-            txtb_Input.Text = "";
+            if (txtb_Input.Text == "")
+            {
+                txtb_Input.Text += "-";
+            }
+            else if (txtb_Input.Text == "-")
+            {
+                // nix passiert
+            }
+            else
+            {
+                string term = txtb_Rechnung.Text + txtb_Input.Text;
+                decimal ergebnis = Rechne(term);
+                txtb_Rechnung.Text = $"{ergebnis} - ";
+                txtb_Input.Text = "";
+            }
         }
 
         private void bt_Mal_Click(object sender, EventArgs e)
         {
-            string term = txtb_Rechnung.Text + txtb_Input.Text;
-            decimal ergebnis = Rechne(term);
-            txtb_Rechnung.Text = ergebnis.ToString();
-            txtb_Rechnung.Text += " × ";
-            txtb_Input.Text = "";
+            if (txtb_Input.Text == "")
+            {
+                // nix passiert
+            }
+            else if (txtb_Input.Text == "-")
+            {
+                txtb_Input.Text = "-";
+            }
+            else
+            {
+                string term = txtb_Rechnung.Text + txtb_Input.Text;
+                decimal ergebnis = Rechne(term);
+                txtb_Rechnung.Text = ergebnis.ToString();
+                txtb_Rechnung.Text += " × ";
+                txtb_Input.Text = "";
+            }
         }
 
         private void bt_Geteiltdurch_Click(object sender, EventArgs e)
         {
-            string term = txtb_Rechnung.Text + txtb_Input.Text;
-            decimal ergebnis = Rechne(term);
-            txtb_Rechnung.Text = ergebnis.ToString();
-            txtb_Rechnung.Text += " ÷ ";
-            txtb_Input.Text = "";
+            if (txtb_Input.Text == "")
+            {
+                // nix passiert
+            }
+            else if (txtb_Input.Text == "-")
+            {
+                txtb_Input.Text = "-";
+            }
+            else
+            {
+                string term = txtb_Rechnung.Text + txtb_Input.Text;
+                decimal ergebnis = Rechne(term);
+                txtb_Rechnung.Text = ergebnis.ToString();
+                txtb_Rechnung.Text += " ÷ ";
+                txtb_Input.Text = "";
+            }
         }
         private void bt_Gleich_Click(object sender, EventArgs e)
         {
-            string term = txtb_Rechnung.Text + txtb_Input.Text;
-            decimal ergebnis = Rechne(term);
-            txtb_Rechnung.Text += txtb_Input.Text;
+            if (txtb_Input.Text == "")
+            {
+                // nix passiert
+            }
+            else if (txtb_Input.Text == "-")
+            {
+                txtb_Input.Text = "-";
+            }
+            else
+            {
+                string term = txtb_Rechnung.Text + txtb_Input.Text;
+                decimal ergebnis = Rechne(term);
+                txtb_Rechnung.Text += txtb_Input.Text;
 
-            txtb_Rechnung.Text += " = ";
-            txtb_Input.Text = ergebnis.ToString();
+                txtb_Rechnung.Text += " = ";
+                txtb_Input.Text = ergebnis.ToString();
 
-            bt_1.Enabled = false;
-            bt_2.Enabled = false;
-            bt_3.Enabled = false;
-            bt_4.Enabled = false;
-            bt_5.Enabled = false;
-            bt_6.Enabled = false;
-            bt_7.Enabled = false;
-            bt_8.Enabled = false;
-            bt_9.Enabled = false;
-            bt_0.Enabled = false;
-            bt_Plus.Enabled = false;
-            bt_Minus.Enabled = false;
-            bt_Mal.Enabled = false;
-            bt_Geteiltdurch.Enabled = false;
-            bt_Komma.Enabled = false;
-            bt_ClearEntry.Enabled = false;
-            bt_Back.Enabled = false;
-            bt_Gleich.Enabled = false;
-
+                bt_1.Enabled = false;
+                bt_2.Enabled = false;
+                bt_3.Enabled = false;
+                bt_4.Enabled = false;
+                bt_5.Enabled = false;
+                bt_6.Enabled = false;
+                bt_7.Enabled = false;
+                bt_8.Enabled = false;
+                bt_9.Enabled = false;
+                bt_0.Enabled = false;
+                bt_Plus.Enabled = false;
+                bt_Minus.Enabled = false;
+                bt_Mal.Enabled = false;
+                bt_Geteiltdurch.Enabled = false;
+                bt_Komma.Enabled = false;
+                bt_ClearEntry.Enabled = false;
+                bt_Back.Enabled = false;
+                bt_Gleich.Enabled = false;
+            }
         }
         private void bt_0_Click(object sender, EventArgs e)
         {
@@ -127,7 +180,14 @@ namespace BlingLuxusCalc
 
         private void bt_Komma_Click(object sender, EventArgs e)
         {
-            txtb_Input.Text += ",";
+            if (txtb_Input.Text == "" || txtb_Input.Text == "-")
+            {
+                txtb_Input.Text += "0,";
+            }
+            else if (!txtb_Input.Text.Contains(","))
+            {
+                txtb_Input.Text += ",";
+            }
         }
 
         private void bt_ClearEntry_Click(object sender, EventArgs e)
@@ -171,7 +231,9 @@ namespace BlingLuxusCalc
             rechnung = rechnung.Replace("×", "*").Replace("÷", "/").Replace(",", ".");
 
             if (rechnung.Contains("/0"))
-            { }
+            {
+                MessageBox.Show("Fehler!");
+            }
             try
             {
                 var ergebnis = new DataTable().Compute(rechnung, null);
