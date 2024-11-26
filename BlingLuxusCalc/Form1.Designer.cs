@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             bt_Plus = new Button();
             bt_Geteiltdurch = new Button();
             bt_Mal = new Button();
@@ -59,7 +58,7 @@
             // 
             bt_Plus.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_Plus.BackColor = Color.Transparent;
-            bt_Plus.BackgroundImage = (Image)resources.GetObject("bt_Plus.BackgroundImage");
+            bt_Plus.BackgroundImage = Properties.Resources.leather_button;
             bt_Plus.BackgroundImageLayout = ImageLayout.Zoom;
             bt_Plus.Cursor = Cursors.Hand;
             bt_Plus.FlatAppearance.BorderColor = Color.Black;
@@ -80,7 +79,7 @@
             // 
             bt_Geteiltdurch.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_Geteiltdurch.BackColor = Color.Transparent;
-            bt_Geteiltdurch.BackgroundImage = (Image)resources.GetObject("bt_Geteiltdurch.BackgroundImage");
+            bt_Geteiltdurch.BackgroundImage = Properties.Resources.leather_button;
             bt_Geteiltdurch.BackgroundImageLayout = ImageLayout.Zoom;
             bt_Geteiltdurch.Cursor = Cursors.Hand;
             bt_Geteiltdurch.FlatAppearance.BorderColor = Color.Black;
@@ -101,7 +100,7 @@
             // 
             bt_Mal.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_Mal.BackColor = Color.Transparent;
-            bt_Mal.BackgroundImage = (Image)resources.GetObject("bt_Mal.BackgroundImage");
+            bt_Mal.BackgroundImage = Properties.Resources.leather_button;
             bt_Mal.BackgroundImageLayout = ImageLayout.Zoom;
             bt_Mal.Cursor = Cursors.Hand;
             bt_Mal.FlatAppearance.BorderColor = Color.Black;
@@ -122,7 +121,7 @@
             // 
             bt_Minus.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_Minus.BackColor = Color.Transparent;
-            bt_Minus.BackgroundImage = (Image)resources.GetObject("bt_Minus.BackgroundImage");
+            bt_Minus.BackgroundImage = Properties.Resources.leather_button;
             bt_Minus.BackgroundImageLayout = ImageLayout.Zoom;
             bt_Minus.Cursor = Cursors.Hand;
             bt_Minus.FlatAppearance.BorderColor = Color.Black;
@@ -143,7 +142,7 @@
             // 
             bt_0.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_0.BackColor = Color.Transparent;
-            bt_0.BackgroundImage = (Image)resources.GetObject("bt_0.BackgroundImage");
+            bt_0.BackgroundImage = Properties.Resources.leather_button;
             bt_0.BackgroundImageLayout = ImageLayout.Zoom;
             bt_0.Cursor = Cursors.Hand;
             bt_0.FlatAppearance.BorderColor = Color.Black;
@@ -164,7 +163,7 @@
             // 
             bt_1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_1.BackColor = Color.Transparent;
-            bt_1.BackgroundImage = (Image)resources.GetObject("bt_1.BackgroundImage");
+            bt_1.BackgroundImage = Properties.Resources.leather_button;
             bt_1.BackgroundImageLayout = ImageLayout.Zoom;
             bt_1.Cursor = Cursors.Hand;
             bt_1.FlatAppearance.BorderColor = Color.Black;
@@ -185,7 +184,7 @@
             // 
             bt_2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_2.BackColor = Color.Transparent;
-            bt_2.BackgroundImage = (Image)resources.GetObject("bt_2.BackgroundImage");
+            bt_2.BackgroundImage = Properties.Resources.leather_button;
             bt_2.BackgroundImageLayout = ImageLayout.Zoom;
             bt_2.Cursor = Cursors.Hand;
             bt_2.FlatAppearance.BorderColor = Color.Black;
@@ -206,7 +205,7 @@
             // 
             bt_3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_3.BackColor = Color.Transparent;
-            bt_3.BackgroundImage = (Image)resources.GetObject("bt_3.BackgroundImage");
+            bt_3.BackgroundImage = Properties.Resources.leather_button;
             bt_3.BackgroundImageLayout = ImageLayout.Zoom;
             bt_3.Cursor = Cursors.Hand;
             bt_3.FlatAppearance.BorderColor = Color.Black;
@@ -227,7 +226,7 @@
             // 
             bt_4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_4.BackColor = Color.Transparent;
-            bt_4.BackgroundImage = (Image)resources.GetObject("bt_4.BackgroundImage");
+            bt_4.BackgroundImage = Properties.Resources.leather_button;
             bt_4.BackgroundImageLayout = ImageLayout.Zoom;
             bt_4.Cursor = Cursors.Hand;
             bt_4.FlatAppearance.BorderColor = Color.Black;
@@ -248,7 +247,7 @@
             // 
             bt_5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_5.BackColor = Color.Transparent;
-            bt_5.BackgroundImage = (Image)resources.GetObject("bt_5.BackgroundImage");
+            bt_5.BackgroundImage = Properties.Resources.leather_button;
             bt_5.BackgroundImageLayout = ImageLayout.Zoom;
             bt_5.Cursor = Cursors.Hand;
             bt_5.FlatAppearance.BorderColor = Color.Black;
@@ -269,7 +268,7 @@
             // 
             bt_6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_6.BackColor = Color.Transparent;
-            bt_6.BackgroundImage = (Image)resources.GetObject("bt_6.BackgroundImage");
+            bt_6.BackgroundImage = Properties.Resources.leather_button;
             bt_6.BackgroundImageLayout = ImageLayout.Zoom;
             bt_6.Cursor = Cursors.Hand;
             bt_6.FlatAppearance.BorderColor = Color.Black;
@@ -290,7 +289,7 @@
             // 
             bt_7.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_7.BackColor = Color.Transparent;
-            bt_7.BackgroundImage = (Image)resources.GetObject("bt_7.BackgroundImage");
+            bt_7.BackgroundImage = Properties.Resources.leather_button;
             bt_7.BackgroundImageLayout = ImageLayout.Zoom;
             bt_7.Cursor = Cursors.Hand;
             bt_7.FlatAppearance.BorderColor = Color.Black;
@@ -311,7 +310,7 @@
             // 
             bt_8.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_8.BackColor = Color.Transparent;
-            bt_8.BackgroundImage = (Image)resources.GetObject("bt_8.BackgroundImage");
+            bt_8.BackgroundImage = Properties.Resources.leather_button;
             bt_8.BackgroundImageLayout = ImageLayout.Zoom;
             bt_8.Cursor = Cursors.Hand;
             bt_8.FlatAppearance.BorderColor = Color.Black;
@@ -332,7 +331,7 @@
             // 
             bt_9.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_9.BackColor = Color.Transparent;
-            bt_9.BackgroundImage = (Image)resources.GetObject("bt_9.BackgroundImage");
+            bt_9.BackgroundImage = Properties.Resources.leather_button;
             bt_9.BackgroundImageLayout = ImageLayout.Zoom;
             bt_9.Cursor = Cursors.Hand;
             bt_9.FlatAppearance.BorderColor = Color.Black;
@@ -353,7 +352,7 @@
             // 
             bt_Gleich.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_Gleich.BackColor = Color.Transparent;
-            bt_Gleich.BackgroundImage = (Image)resources.GetObject("bt_Gleich.BackgroundImage");
+            bt_Gleich.BackgroundImage = Properties.Resources.gold_button;
             bt_Gleich.BackgroundImageLayout = ImageLayout.Zoom;
             bt_Gleich.Cursor = Cursors.Hand;
             bt_Gleich.FlatAppearance.BorderColor = Color.Black;
@@ -387,7 +386,7 @@
             // 
             bt_ClearEntry.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_ClearEntry.BackColor = Color.Transparent;
-            bt_ClearEntry.BackgroundImage = (Image)resources.GetObject("bt_ClearEntry.BackgroundImage");
+            bt_ClearEntry.BackgroundImage = Properties.Resources.leather_button;
             bt_ClearEntry.BackgroundImageLayout = ImageLayout.Zoom;
             bt_ClearEntry.Cursor = Cursors.Hand;
             bt_ClearEntry.FlatAppearance.BorderColor = Color.Black;
@@ -422,7 +421,7 @@
             // 
             bt_Komma.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_Komma.BackColor = Color.Transparent;
-            bt_Komma.BackgroundImage = (Image)resources.GetObject("bt_Komma.BackgroundImage");
+            bt_Komma.BackgroundImage = Properties.Resources.leather_button;
             bt_Komma.BackgroundImageLayout = ImageLayout.Zoom;
             bt_Komma.Cursor = Cursors.Hand;
             bt_Komma.FlatAppearance.BorderColor = Color.Black;
@@ -443,7 +442,7 @@
             // 
             bt_ClearAll.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_ClearAll.BackColor = Color.Transparent;
-            bt_ClearAll.BackgroundImage = (Image)resources.GetObject("bt_ClearAll.BackgroundImage");
+            bt_ClearAll.BackgroundImage = Properties.Resources.leather_button;
             bt_ClearAll.BackgroundImageLayout = ImageLayout.Zoom;
             bt_ClearAll.Cursor = Cursors.Hand;
             bt_ClearAll.FlatAppearance.BorderColor = Color.Black;
@@ -464,7 +463,7 @@
             // 
             bt_Back.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             bt_Back.BackColor = Color.Transparent;
-            bt_Back.BackgroundImage = (Image)resources.GetObject("bt_Back.BackgroundImage");
+            bt_Back.BackgroundImage = Properties.Resources.leather_button;
             bt_Back.BackgroundImageLayout = ImageLayout.Stretch;
             bt_Back.Cursor = Cursors.Hand;
             bt_Back.FlatAppearance.BorderColor = Color.Black;
@@ -484,9 +483,8 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
+            pictureBox1.Image = Properties.Resources.bling_logo;
+            pictureBox1.InitialImage = null;
             pictureBox1.Location = new Point(34, 0);
             pictureBox1.Margin = new Padding(4, 3, 4, 3);
             pictureBox1.Name = "pictureBox1";
@@ -500,7 +498,7 @@
             AutoScaleDimensions = new SizeF(9F, 22F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.mahogany;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(497, 717);
             Controls.Add(txtb_Rechnung);
