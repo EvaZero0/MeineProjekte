@@ -63,6 +63,7 @@
             bt_Plus.Cursor = Cursors.Hand;
             bt_Plus.FlatAppearance.BorderColor = Color.Black;
             bt_Plus.FlatAppearance.BorderSize = 0;
+            bt_Plus.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_Plus.FlatStyle = FlatStyle.Flat;
             bt_Plus.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_Plus.ForeColor = Color.Black;
@@ -84,6 +85,7 @@
             bt_Geteiltdurch.Cursor = Cursors.Hand;
             bt_Geteiltdurch.FlatAppearance.BorderColor = Color.Black;
             bt_Geteiltdurch.FlatAppearance.BorderSize = 0;
+            bt_Geteiltdurch.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_Geteiltdurch.FlatStyle = FlatStyle.Flat;
             bt_Geteiltdurch.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_Geteiltdurch.ForeColor = Color.Black;
@@ -105,6 +107,7 @@
             bt_Mal.Cursor = Cursors.Hand;
             bt_Mal.FlatAppearance.BorderColor = Color.Black;
             bt_Mal.FlatAppearance.BorderSize = 0;
+            bt_Mal.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_Mal.FlatStyle = FlatStyle.Flat;
             bt_Mal.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_Mal.ForeColor = Color.Black;
@@ -126,6 +129,7 @@
             bt_Minus.Cursor = Cursors.Hand;
             bt_Minus.FlatAppearance.BorderColor = Color.Black;
             bt_Minus.FlatAppearance.BorderSize = 0;
+            bt_Minus.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_Minus.FlatStyle = FlatStyle.Flat;
             bt_Minus.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_Minus.ForeColor = Color.Black;
@@ -147,6 +151,7 @@
             bt_0.Cursor = Cursors.Hand;
             bt_0.FlatAppearance.BorderColor = Color.Black;
             bt_0.FlatAppearance.BorderSize = 0;
+            bt_0.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_0.FlatStyle = FlatStyle.Flat;
             bt_0.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_0.ForeColor = Color.Black;
@@ -168,6 +173,7 @@
             bt_1.Cursor = Cursors.Hand;
             bt_1.FlatAppearance.BorderColor = Color.Black;
             bt_1.FlatAppearance.BorderSize = 0;
+            bt_1.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_1.FlatStyle = FlatStyle.Flat;
             bt_1.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_1.ForeColor = Color.Black;
@@ -189,6 +195,7 @@
             bt_2.Cursor = Cursors.Hand;
             bt_2.FlatAppearance.BorderColor = Color.Black;
             bt_2.FlatAppearance.BorderSize = 0;
+            bt_2.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_2.FlatStyle = FlatStyle.Flat;
             bt_2.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_2.ForeColor = Color.Black;
@@ -210,6 +217,7 @@
             bt_3.Cursor = Cursors.Hand;
             bt_3.FlatAppearance.BorderColor = Color.Black;
             bt_3.FlatAppearance.BorderSize = 0;
+            bt_3.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_3.FlatStyle = FlatStyle.Flat;
             bt_3.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_3.ForeColor = Color.Black;
@@ -231,6 +239,7 @@
             bt_4.Cursor = Cursors.Hand;
             bt_4.FlatAppearance.BorderColor = Color.Black;
             bt_4.FlatAppearance.BorderSize = 0;
+            bt_4.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_4.FlatStyle = FlatStyle.Flat;
             bt_4.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_4.ForeColor = Color.Black;
@@ -252,6 +261,7 @@
             bt_5.Cursor = Cursors.Hand;
             bt_5.FlatAppearance.BorderColor = Color.Black;
             bt_5.FlatAppearance.BorderSize = 0;
+            bt_5.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_5.FlatStyle = FlatStyle.Flat;
             bt_5.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_5.ForeColor = Color.Black;
@@ -273,6 +283,7 @@
             bt_6.Cursor = Cursors.Hand;
             bt_6.FlatAppearance.BorderColor = Color.Black;
             bt_6.FlatAppearance.BorderSize = 0;
+            bt_6.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_6.FlatStyle = FlatStyle.Flat;
             bt_6.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_6.ForeColor = Color.Black;
@@ -294,6 +305,7 @@
             bt_7.Cursor = Cursors.Hand;
             bt_7.FlatAppearance.BorderColor = Color.Black;
             bt_7.FlatAppearance.BorderSize = 0;
+            bt_7.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_7.FlatStyle = FlatStyle.Flat;
             bt_7.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_7.ForeColor = Color.Black;
@@ -315,6 +327,7 @@
             bt_8.Cursor = Cursors.Hand;
             bt_8.FlatAppearance.BorderColor = Color.Black;
             bt_8.FlatAppearance.BorderSize = 0;
+            bt_8.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_8.FlatStyle = FlatStyle.Flat;
             bt_8.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_8.ForeColor = Color.Black;
@@ -336,6 +349,7 @@
             bt_9.Cursor = Cursors.Hand;
             bt_9.FlatAppearance.BorderColor = Color.Black;
             bt_9.FlatAppearance.BorderSize = 0;
+            bt_9.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_9.FlatStyle = FlatStyle.Flat;
             bt_9.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_9.ForeColor = Color.Black;
@@ -357,6 +371,7 @@
             bt_Gleich.Cursor = Cursors.Hand;
             bt_Gleich.FlatAppearance.BorderColor = Color.Black;
             bt_Gleich.FlatAppearance.BorderSize = 0;
+            bt_Gleich.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_Gleich.FlatStyle = FlatStyle.Flat;
             bt_Gleich.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_Gleich.ForeColor = Color.Black;
@@ -391,6 +406,7 @@
             bt_ClearEntry.Cursor = Cursors.Hand;
             bt_ClearEntry.FlatAppearance.BorderColor = Color.Black;
             bt_ClearEntry.FlatAppearance.BorderSize = 0;
+            bt_ClearEntry.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_ClearEntry.FlatStyle = FlatStyle.Flat;
             bt_ClearEntry.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_ClearEntry.ForeColor = Color.Black;
@@ -426,6 +442,7 @@
             bt_Komma.Cursor = Cursors.Hand;
             bt_Komma.FlatAppearance.BorderColor = Color.Black;
             bt_Komma.FlatAppearance.BorderSize = 0;
+            bt_Komma.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_Komma.FlatStyle = FlatStyle.Flat;
             bt_Komma.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_Komma.ForeColor = Color.Black;
@@ -447,6 +464,7 @@
             bt_ClearAll.Cursor = Cursors.Hand;
             bt_ClearAll.FlatAppearance.BorderColor = Color.Black;
             bt_ClearAll.FlatAppearance.BorderSize = 0;
+            bt_ClearAll.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_ClearAll.FlatStyle = FlatStyle.Flat;
             bt_ClearAll.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_ClearAll.ForeColor = Color.Black;
@@ -468,6 +486,7 @@
             bt_Back.Cursor = Cursors.Hand;
             bt_Back.FlatAppearance.BorderColor = Color.Black;
             bt_Back.FlatAppearance.BorderSize = 0;
+            bt_Back.FlatAppearance.MouseOverBackColor = Color.Gold;
             bt_Back.FlatStyle = FlatStyle.Flat;
             bt_Back.Font = new Font("Copperplate Gothic Bold", 18F);
             bt_Back.ForeColor = Color.Black;
