@@ -4,7 +4,7 @@ namespace Lotto
 {
     public partial class Form1 : Form
     {
-        Random lottozahlen = new Random();
+        Random lottozahlen = new Random(); // Random-Feld
         int[] ziehung = new int[6];
         int superzahlSchein;
         int superzahlZiehung;
@@ -15,7 +15,7 @@ namespace Lotto
             InitializeComponent();
         }
 
-        private void bt_Numbers_Click(object sender, EventArgs e)
+        private void bt_Numbers_Click(object sender, EventArgs e)   // Alle Buttons mit Zahlen
         {
             string zahl = (sender as Button).Text;
             for (int i = 0; i < tipp.Length; i++)
@@ -39,7 +39,7 @@ namespace Lotto
             }
         }
 
-        private void chb_Superzahl_CheckedChanged(object sender, EventArgs e)
+        private void chb_Superzahl_CheckedChanged(object sender, EventArgs e)   // Häkchenbox für die Superzahl
         {
             if (chb_Superzahl.Checked)
             {
@@ -56,32 +56,33 @@ namespace Lotto
             }
         }
 
-        private void bt_Spielen_Click(object sender, EventArgs e)
+        private void bt_Spielen_Click(object sender, EventArgs e)   // Spielen-Button
         {
-            if (!tipp.Contains(""))
+            if (!tipp.Contains("")) // sorgt dafür, dass erst gespielt werden kann, wenn alle 6 Kästchen angekreuzt wurden
             {
-                for (int i = 0; i < ziehung.Length; i++)
+                for (int i = 0; i < ziehung.Length; i++)    // zuerst werden die Lottozahlen gezogen
                 {
                     int randomZahl;
 
                     do
                     {
                         randomZahl = lottozahlen.Next(1, 50);
-                    } while (ziehung.Contains(randomZahl));
+                    } while (ziehung.Contains(randomZahl)); // sorgt dafür, dass keine Zahlen mehrfach gezogen werden
 
-                    ziehung[i] = randomZahl;
+                    ziehung[i] = randomZahl;    // übergeben der zufälligen Zahl ins Ziehungs-Array
 
                 }
 
-                Array.Sort(ziehung);
+                Array.Sort(ziehung);    // Sortierung der fertigen
 
-                for (int i = 0; i < ziehung.Length; i++)
+                for (int i = 0; i < ziehung.Length; i++)    // gibt das Ergebnis grafisch aus (Kugeln werden sichtbar)
                 {
                     Controls["tb_" + i].Text = ziehung[i].ToString();
                     Controls["pb_" + i].Visible = true;
                     Controls["tb_" + i].Visible = true;
                 }
-                if (chb_Superzahl.Checked)
+
+                if (chb_Superzahl.Checked)  // wie oben drüber, nur mit Superzahl (+ Ziehung)
                 {
                     superzahlZiehung = lottozahlen.Next(0, 10);
                     pb_6.Visible = true;
@@ -89,7 +90,7 @@ namespace Lotto
                     tb_6.Text = superzahlZiehung.ToString();
                 }
 
-                for (int i = 0; i < 6; i++)
+                for (int i = 0; i < 6; i++) // Abgleich der Zahlen
                 {
                     if (int.TryParse(tipp[i], out int number) && ziehung.Contains(number))
                     {
